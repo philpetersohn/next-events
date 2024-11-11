@@ -1,3 +1,11 @@
+"use client";
+
+import Button from "@/components/Button";
+
 export default function Home() {
-  return <button className="btn btn-primary m-2">Click me</button>;
+  return (
+    <button className="m-2">
+      <Button />
+    </button>
+  );
 }
